@@ -9,7 +9,8 @@ class GetNews {
   final int comments;
   final String description;
 
-  GetNews(this.id, this.cover, this.title, this.portalLogo, this.portalTitle, this.category, this.likes, this.comments, this.description);
+  GetNews(this.id, this.cover, this.title, this.portalLogo, this.portalTitle,
+      this.category, this.likes, this.comments, this.description);
 
   factory GetNews.fromJson(json) {
     return GetNews(

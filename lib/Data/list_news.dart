@@ -8,7 +8,8 @@ class ListNews {
   final int likes;
   final int comments;
 
-  ListNews(this.id, this.cover, this.title, this.portalLogo, this.portalTitle, this.category, this.likes, this.comments);
+  ListNews(this.id, this.cover, this.title, this.portalLogo, this.portalTitle,
+      this.category, this.likes, this.comments);
 
   factory ListNews.fromJson(json) {
     return ListNews(
